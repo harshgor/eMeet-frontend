@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!--Link Swiper's CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!-- Local CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font awesome for icons -->
+    <script src="https://kit.fontawesome.com/694172b00a.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/kute.js/1.6.1/kute.min.js"></script>
+
+    <title>Home Page</title>
+</head>
+
+<body>
+    <section id="about-us">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">eMeet</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#plans-and-pricing">Plans & Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="ms-auto btn btn-light btn-lg login-signup">Login / Signup</button>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-6 title-content">
+                    <h1 class="title-heading">Connect with anyone, anytime from anywhere.</h1>
+                    <p class="title-paragraph">A high quality video conferencing platform that makes your virtual
+                        meetings as productive as they would be in person, lets you connect without limits with your
+                        loved ones and much more.</p>
+                    <button type="button" class="ms-auto btn btn-light btn-lg create-meeting-button title-button">Create
+                        meeting</button>
+                    <button type="button" class="ms-auto btn btn-light btn-lg join-meeting-button title-button">Join
+                        Meeting</button>
+                </div>
+                <div class="col-lg-6 title-image-container">
+                    <div class="title-image"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="features">
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide feature-content">
+                    <div class="feature-image-container">
+                        <div class="feature-image feature1-image"></div>
+                    </div>
+                    <h2 class="feature-heading">Audio and Video calling</h2>
+                    <p class="feature-paragraph">Supports HD video and audio calling.
+                        You can invite others by creating your own meeting or
+                        you can join other's meeting by joining the shared link.
+                    </p>
+                </div>
+                <div class="swiper-slide feature-content">
+                    <div class="feature-image-container">
+                        <div class="feature-image feature2-image"></div>
+                    </div>
+                    <h2 class="feature-heading">Smart Messaging</h2>
+                    <p class="feature-paragraph">In addition to video and audio calling features, it also supports chat
+                        messaging.
+                        Now, you can seamlessly chat with others in an end to end encrypted environment.</p>
+                </div>
+                <div class="swiper-slide feature-content">
+                    <div class="feature-image-container">
+                        <div class="feature-image feature3-image"></div>
+                    </div>
+                    <h2 class="feature-heading">See everyone together</h2>
+                    <p class="feature-paragraph">Supports group video calling.
+                        Not just 1,2 or 3, you can now watch everyone together on one screen.
+                        Group video sessions have never been so fun.</p>
+                </div>
+                <div class="swiper-slide feature-content">
+                    <div class="feature-image-container">
+                        <div class="feature-image feature4-image"></div>
+                    </div>
+                    <h2 class="feature-heading">Secure connection</h2>
+                    <p class="feature-paragraph">No need to stress about your privacy or security.
+                        You can keep your meeting private. Every meeting is created with unique id and
+                        is secured with end to end encryption.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="wave-features">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section id="plans-and-pricing" class="pricing-table">
+        <div class="container">
+            <div class="block-heading">
+                <h2>Choose a plan.</h2>
+                <p>Find the right annual solution for your needs.</p>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>BASIC</h3>
+                        </div>
+                        <p>Personal Meetings.</p>
+                        <div class="features">
+                            <h4><span class="feature">Maximum participants</span> : <span class="value">100</span></h4>
+                            <h4><span class="feature">Duration</span> : <span class="value">40 Minutes</span></h4>
+                            <h4><span class="feature">Storage</span> : <span class="value">Not supported</span></h4>
+                        </div>
+                        <div class="price">
+                            <h4>FREE</h4>
+                        </div>
+                        <button class="btn btn-block btn-light pricing-button" type="submit">SIGN UP</button>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="ribbon">Best Value</div>
+                        <div class="heading">
+                            <h3>PRO</h3>
+                        </div>
+                        <p>Great for small teams.</p>
+                        <div class="features">
+                            <h4><span class="feature">Maximum Participants</span> : <span class="value">100</span></h4>
+                            <h4><span class="feature">Duration</span> : <span class="value">30 hours</span></h4>
+                            <h4><span class="feature">Storage</span> : <span class="value">1GB cloud recording</span>
+                            </h4>
+                        </div>
+                        <div class="price">
+                            <h4>$50</h4>
+                        </div>
+                        <button class="btn btn-block btn-light pricing-button" type="submit">BUY NOW</button>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>ENTERPRISE</h3>
+                        </div>
+                        <p>Best solution for large enterprises.</p>
+                        <div class="features">
+                            <h4><span class="feature">Maximum Participants</span> : <span class="value">500</span></h4>
+                            <h4><span class="feature">Duration</span> : <span class="value">Unlimited</span></h4>
+                            <h4><span class="feature">Storage</span> : <span class="value">Unlimited</span></h4>
+                        </div>
+                        <div class="price">
+                            <h4>150$</h4>
+                        </div>
+                        <button class="btn btn-block btn-light pricing-button" type="submit">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-pricing">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section id="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 left-footer">
+                    <a class="footer-title" href="#about-us">eMeet</a>
+                    <p>Keeping you connected wherever you are. We re-engineered it to make it available for all.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 middle-footer">
+                    <ul>
+                        <li>
+                            <a href="#about-us">About us</a>
+                        </li>
+                        <li>
+                            <a href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a href="#plans-and-pricing">Plans and pricing</a>
+                        </li>
+                        <li>
+                            <a href="termsAndConditions.html">Terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="privacyPolicy.html">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 third-footer">
+                    <h5>Let's Chat</h5>
+                    <a href="mailto:harsh.gor08@gmail.com">harsh.gor08@gmail.com</a>
+                    <br>
+                    <a href=""><i class="fab fa-facebook-square fa-2x footer-icons"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x footer-icons"></i></a>
+                    <a href=""><i class="fab fa-linkedin fa-2x footer-icons"></i></a>
+                    <a href=""><i class="fab fa-instagram fa-2x footer-icons"></i></a>
+                </div>
+                <div class="col-lg-3 col-md-6 right-footer">
+                    <h5>Get in touch</h5>
+                    <p>#237, Time Square Empire, Bhuj - Nakhtarana Highway, Bhuj - Gujarat - India - 370001</p>
+                    <a href="tel:+919724609626">+91 9724609626</a>
+                </div>
+            </div>
+        </div>
+        <div class="wave-footer">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section id="footer">
+        <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script> eMeet All Rights Reserved
+        </p>
+        <div class="wave-copyright">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
