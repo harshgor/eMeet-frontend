@@ -27,8 +27,6 @@
     <script src="https://kit.fontawesome.com/694172b00a.js" crossorigin="anonymous"></script>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/kute.js/1.6.1/kute.min.js"></script>
-
     <title>Home Page</title>
 </head>
 
@@ -81,7 +79,7 @@
     </section>
 
     <section id="features">
-        <div class="swiper-container mySwiper">
+        <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide feature-content">
                     <div class="feature-image-container">
@@ -133,7 +131,7 @@
         </div>
     </section>
     <section id="plans-and-pricing" class="pricing-table">
-        <div class="container">
+        <div class="container-fluid">
             <div class="block-heading">
                 <h2>Choose a plan.</h2>
                 <p>Find the right annual solution for your needs.</p>
@@ -153,7 +151,7 @@
                         <div class="price">
                             <h4>FREE</h4>
                         </div>
-                        <button class="btn btn-block btn-light pricing-button" type="submit">SIGN UP</button>
+                        <button class="btn btn-block btn-light pricing-button sign-up" type="submit">SIGN UP</button>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-4">
@@ -193,14 +191,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="wave-pricing">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"></path>
-            </svg>
+            <div class="wave-pricing">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
         </div>
     </section>
     <section id="contact-us">
@@ -244,14 +242,14 @@
                     <a href="tel:+919724609626">+91 9724609626</a>
                 </div>
             </div>
-        </div>
-        <div class="wave-footer">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"></path>
-            </svg>
+            <div class="wave-footer">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
         </div>
     </section>
     <section id="footer">
@@ -270,16 +268,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-    <script>
+    <script> 
         var swiper = new Swiper(".mySwiper", {
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-        });
+        pagination: {
+          el: ".swiper-pagination"
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        }
+      });
     </script>
 </body>
 
